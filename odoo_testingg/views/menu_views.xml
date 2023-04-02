@@ -1,0 +1,7 @@
+<odoo>
+    <data>
+        <menuitem id="main_menu" name="Material Menu"/>
+        <menuitem id="supplier_menu" name="Supplier" parent="main_menu" action="supplier_action"/>
+        <menuitem id="material_menu" name="Material" parent="main_menu" action="material_action"/>
+    </data>
+</odoo>
